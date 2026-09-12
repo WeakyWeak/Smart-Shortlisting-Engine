@@ -1,0 +1,246 @@
+{
+  "_comment": "Job family from the filename -- our relevance label. Patterns match the lowercased stem, first match wins, so longer/more specific ones come first.",
+  "patterns": [
+    [
+      "web_dev",
+      [
+        "web_dev",
+        "web developer",
+        "webdev",
+        "full_stack",
+        "full stack",
+        "fullstack"
+      ]
+    ],
+    [
+      "sde",
+      [
+        "sde",
+        "software engineer",
+        "software development"
+      ]
+    ],
+    [
+      "app_dev",
+      [
+        "app_dev",
+        "app developer",
+        "appdev",
+        "mobile",
+        "android",
+        "ios"
+      ]
+    ],
+    [
+      "ai_dev",
+      [
+        "ai_dev",
+        "ai developer",
+        "ml_engineer",
+        "ml engineer",
+        "machine learning"
+      ]
+    ],
+    [
+      "data_scientist",
+      [
+        "data_scientist",
+        "data scientist",
+        "ds resume",
+        "data_analyst",
+        "data analyst"
+      ]
+    ],
+    [
+      "python_dev",
+      [
+        "python_dev",
+        "python developer",
+        "python resume",
+        "python"
+      ]
+    ],
+    [
+      "cyber_sec",
+      [
+        "cyber_sec",
+        "cyber_security",
+        "cyber security",
+        "cybersec",
+        "security"
+      ]
+    ],
+    [
+      "devops",
+      [
+        "devops",
+        "cloud_engineer",
+        "cloud engineer",
+        "cloud_support",
+        "cloud support",
+        "embedded"
+      ]
+    ],
+    [
+      "qa",
+      [
+        "qa_engineer",
+        "qa engineer",
+        "quality assurance",
+        "test engineer"
+      ]
+    ],
+    [
+      "blockchain",
+      [
+        "blockchain"
+      ]
+    ],
+    [
+      "game_dev",
+      [
+        "game_developer",
+        "game developer"
+      ]
+    ],
+    [
+      "design",
+      [
+        "design",
+        "designer",
+        "ui_ux",
+        "graphic"
+      ]
+    ],
+    [
+      "video_editing",
+      [
+        "video_editing",
+        "video_editor",
+        "video editor"
+      ]
+    ],
+    [
+      "content_creation",
+      [
+        "content_creation",
+        "content_creator",
+        "content creation",
+        "technical_writer",
+        "technical writer"
+      ]
+    ],
+    [
+      "social_media",
+      [
+        "social_media",
+        "social media"
+      ]
+    ],
+    [
+      "marketing",
+      [
+        "marketing",
+        "devrel"
+      ]
+    ],
+    [
+      "sales",
+      [
+        "sales",
+        "business_development",
+        "business development",
+        "customer_success",
+        "customer success"
+      ]
+    ],
+    [
+      "hr",
+      [
+        "hr_",
+        "hr resume",
+        "human resource"
+      ]
+    ],
+    [
+      "it_support",
+      [
+        "it_support",
+        "it support"
+      ]
+    ],
+    [
+      "founders_office",
+      [
+        "founders_office",
+        "founder_s_office",
+        "foundersoffice",
+        "founder"
+      ]
+    ],
+    [
+      "product",
+      [
+        "product_manager",
+        "product manager",
+        "business_analyst",
+        "business analyst",
+        "operations",
+        "finance"
+      ]
+    ]
+  ],
+  "_relevance_comment": "Graded relevance per JD, used for NDCG in tools/calibrate.py. 2 = strong fit, 1 = adjacent, unlisted = irrelevant.",
+  "relevance": {
+    "web_dev": {
+      "web_dev": 2,
+      "sde": 2,
+      "app_dev": 1,
+      "python_dev": 1,
+      "ai_dev": 1,
+      "devops": 1,
+      "design": 1,
+      "qa": 1,
+      "game_dev": 1,
+      "blockchain": 1
+    },
+    "data_scientist": {
+      "data_scientist": 2,
+      "ai_dev": 2,
+      "python_dev": 1,
+      "sde": 1,
+      "devops": 1,
+      "product": 1
+    },
+    "cyber_sec": {
+      "cyber_sec": 2,
+      "devops": 1,
+      "it_support": 1,
+      "sde": 1,
+      "python_dev": 1,
+      "blockchain": 1
+    },
+    "app_dev": {
+      "app_dev": 2,
+      "sde": 2,
+      "web_dev": 1,
+      "design": 1,
+      "game_dev": 1,
+      "qa": 1
+    },
+    "sales": {
+      "sales": 2,
+      "marketing": 1,
+      "founders_office": 1,
+      "product": 1,
+      "social_media": 1
+    },
+    "content_creation": {
+      "content_creation": 2,
+      "social_media": 2,
+      "marketing": 1,
+      "design": 1,
+      "video_editing": 1
+    }
+  }
+}

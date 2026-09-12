@@ -1,0 +1,87 @@
+{
+  "_comment": "Rule-based half of the JD bias check. The narrow-phrasing check lives in bonus/bias.py and is computed from the ranking engine, not a word list.",
+  "masculine_coded": [
+    "rockstar",
+    "ninja",
+    "guru",
+    "wizard",
+    "hacker",
+    "aggressive",
+    "dominant",
+    "competitive",
+    "fearless",
+    "driven",
+    "assertive",
+    "decisive",
+    "outspoken",
+    "self-reliant",
+    "superstar",
+    "warrior",
+    "killer instinct",
+    "crush it",
+    "alpha",
+    "hard-charging"
+  ],
+  "feminine_coded": [
+    "supportive",
+    "nurturing",
+    "collaborative",
+    "sympathetic",
+    "warm",
+    "pleasant",
+    "loyal",
+    "dependable"
+  ],
+  "gendered_pronouns": [
+    "he/she",
+    "he or she",
+    "his/her",
+    "his or her",
+    "s/he",
+    "chairman",
+    "manpower",
+    "salesman",
+    "craftsman"
+  ],
+  "age_coded": [
+    "young",
+    "youthful",
+    "energetic",
+    "digital native",
+    "recent graduate only",
+    "fresh graduate only",
+    "new grad only",
+    "must be under",
+    "born after",
+    "mature",
+    "seasoned veteran"
+  ],
+  "exclusionary": [
+    "native english speaker",
+    "native speaker",
+    "perfect english",
+    "no career gaps",
+    "continuous employment",
+    "must own a car",
+    "clean-cut",
+    "culture fit",
+    "work hard play hard",
+    "like a family",
+    "unlimited hours",
+    "thick skin"
+  ],
+  "elite_signalling": [
+    "tier-1 college only",
+    "iit only",
+    "nit only",
+    "ivy league",
+    "top-tier university only",
+    "premier institute only"
+  ],
+  "notes": {
+    "masculine_coded": "Gaucher et al. (2011) found agentic/masculine-coded wording measurably reduces applications from women.",
+    "age_coded": "Proxies for age discrimination; 'digital native' is the classic example.",
+    "exclusionary": "Screens on attributes unrelated to job performance.",
+    "elite_signalling": "Institution filters exclude qualified candidates without predicting performance."
+  }
+}

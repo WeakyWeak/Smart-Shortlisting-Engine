@@ -1,0 +1,43 @@
+# ---- secrets ----
+# Contains GROQ_API_KEY. Never commit. See .env.example for the shape.
+.env
+.env.local
+
+# ---- python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---- generated artifacts ----
+# Regenerate with `python run.py` -- committing it would go stale against the code.
+out/
+*.log
+
+# ---- model weights ----
+# ~210MB-2GB, cached in ~/.cache/huggingface by scripts/download_models.py
+models/
+*.safetensors
+*.bin
+
+# ---- hackathon data ----
+# The 18 resumes + Sample_JD.pdf are supplied with the problem statement, and the
+# 154-resume corpus is third-party sample data. Both contain (synthetic) personal
+# details, so neither belongs in a public repo. Keep the folder structure only.
+data/resumes/*
+data/corpus/*
+data/jd/*.pdf
+data/jd/*.docx
+!data/**/.gitkeep
+!data/jd/eval/
+
+# ---- os / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
